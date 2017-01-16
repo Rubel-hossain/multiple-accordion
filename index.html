@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Multiple Bootstrap Accourdion</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       
+        <div class="container">
+        	<div class="row">
+        	 <div class="panel-wrapper"> 
+        		<div class="col-md-4">
+        		<div class="panel-group" id="accordion"> 
+        			<div class="panel panel-default">
+        				<div class="panel-heading">
+        					<h4 class="panel-title plus active">
+        						<a data-toggle="collapse" data-parent="#accordion"  href="#coll1">Mobiles & Tablets</a>
+        					</h4>
+        				</div>
+        				<div id="coll1" class="panel-collapse collapse in">
+        					<div class="panel-body">
+        					 <div class="panel-group" id="accordion2">
+        					 	<div class="panel panel-default">
+        					 		<div class="panel-heading">
+        					 			<h4 class="panel-title sub-title plus">
+        					 				<a data-toggle="collapse" data-parent="#accordion2" href="#sub-mobi">Smartphones</a>
+        					 			</h4>
+        					 		</div>
+                                  <div id="sub-mobi" class="panel-collapse collapse">
+                                  	<div class="panel-body">
+                                  	  <div class="panel-group" id="accordion3">
+                                  	  	<div class="panel panel-default">
+                                  	  		<div class="panel-heading">    
+                                  	  			<h4 class="panel-title sub-title">
+                                  	  				<a data-toggle="collapse" data-parent="#accordion3" href="#">Apple</a>
+                                  	  			</h4>
+                                  	  		</div>
+                                  	  	</div>
+                                  	  	<div class="panel panel-default">
+                                  	  		<div class="panel-heading">
+                                  	  			<h4 class="panel-title sub-title">
+                                  	  				<a data-toggle="collapse" data-parent="#accordion3" href="#">Samsung</a>
+                                  	  			</h4>
+                                  	  		</div>
+                                  	  	</div>
+                                  	  	<div class="panel panel-default">
+                                  	  		<div class="panel-heading">
+                                  	  			<h4 class="panel-title sub-title">
+                                  	  				<a data-toggle="collapse" data-parent="#accordion3" href="#">Motorola</a>
+                                  	  			</h4>
+                                  	  		</div>
+                                  	  	</div>
+                                  	  	<div class="panel panel-default">
+                                  	  		<div class="panel-heading">
+                                  	  			<h4 class="panel-title sub-title">
+                                  	  				<a data-toggle="collapse" data-parent="#accordion3" href="#">Sony</a>
+                                  	  			</h4>
+                                  	  		</div>
+                                  	  	</div>
+                                  	  </div>
+                                  	</div>
+                                  </div>
+        					 	</div>
+        					 	<div class="panel panel-default">
+        					 		<div class="panel-heading">
+        					 			<h4 class="panel-title sub-title plus">
+        					 				<a data-toggle="collapse" data-parent="#accordion2" href="#sub-2">Tablets & E-Readers</a>
+        					 			</h4>
+        					 		</div>
+                                   <div id="sub-2" class="panel-collapse collapse">
+                                   	 <div class="panel-body">
+                                   	 	<div class="panel-group" id="accordion3">
+                                   	 		<div class="panel panel-default">
+                                   	 			<div class="panel-heading">
+                                   	 				<h4 class="panel-title sub-title">
+                                   	 					<a data-toggle="collapse" data-parent="#accordion3" href="#">Ipad</a>
+                                   	 				</h4>
+                                   	 			</div>
+                                   	 		</div>
+                                   	 		<div class="panel panel-default">
+                                   	 			<div class="panel-heading">
+                                   	 				<h4 class="panel-title sub-title">
+                                   	 					<a data-toggle="collapse" data-parent="#accordion3" href="#">Tablets</a>
+                                   	 				</h4>
+                                   	 			</div>
+                                   	 		</div><div class="panel panel-default">
+                                   	 			<div class="panel-heading">
+                                   	 				<h4 class="panel-title sub-title">
+                                   	 					<a data-toggle="collapse" data-parent="#accordion3" href="#">Kids' Tablets</a>
+                                   	 				</h4>
+                                   	 			</div>
+                                   	 		</div><div class="panel panel-default">
+                                   	 			<div class="panel-heading sub-title">
+                                   	 				<h4 class="panel-title">
+                                   	 					<a data-toggle="collapse" data-parent="#accordion3" href="#">iPad & Tablet</a>
+                                   	 				</h4>
+                                   	 			</div>
+                                   	 		</div>
+                                   	 	</div>
+                                   	 </div>
+                                   </div>
+        					 	</div>
+        					 	<div class="panel panel-default">
+        					 		<div class="panel-heading">
+        					 			<h4 class="panel-title sub-title plus">
+        					 				<a data-toggle="collapse" data-parent="#accordion2" href="#sub-3">Accessories</a>
+        					 			</h4>
+        					 		</div>
+        					 		<div id="sub-3" class="panel-collapse collapse">
+        					 			<div class="panel-group" id="accordion3">
+        					 				<div class="panel panel-default">
+        					 					<div class="panel-heading">
+        					 						<h4 class="panel-title sub-title">
+        					 							<a data-toggle="collapse" data-parent="#accordion3" href="#">Cables</a>
+        					 						</h4>
+        					 					</div>
+        					 				</div>	
+        					 				<div class="panel panel-default">
+        					 					<div class="panel-heading">
+        					 						<h4 class="panel-title sub-title">
+        					 							<a data-toggle="collapse" data-parent="#accordion3" href="#">Screen Protectors</a>
+        					 						</h4>
+        					 					</div>
+        					 				</div>	
+        					 				<div class="panel panel-default">
+        					 					<div class="panel-heading">
+        					 						<h4 class="panel-title sub-title">
+        					 							<a data-toggle="collapse" data-parent="#accordion3" href="#">Holders & Stands</a>
+        					 						</h4>
+        					 					</div>
+        					 				</div>	
+        					 				<div class="panel panel-default">
+        					 					<div class="panel-heading">
+        					 						<h4 class="panel-title sub-title">
+        					 							<a data-toggle="collapse" data-parent="#accordion3" href="#">Storage</a>
+        					 						</h4>
+        					 					</div>
+        					 				</div>	
+        					 				<div class="panel panel-default">
+        					 					<div class="panel-heading">
+        					 						<h4 class="panel-title sub-title">
+        					 							<a data-toggle="collapse" data-parent="#accordion3" href="#">Cables</a>
+        					 						</h4>
+        					 					</div>
+        					 				</div>
+        					 			</div>
+        					 		</div>
+        					 	</div>
+        					 	<div class="panel panel-default">
+        					 		<div class="panel-heading">
+        					 			<h4 class="panel-title sub-title plus">
+        					 				<a data-toggle="collapse" data-parent="#accordion2" href="#sub-4">Office</a>
+        					 			</h4>
+        					 		</div>
+        					 		<div id="sub-4" class="panel-collapse collapse">
+        					 			<div class="panel-body">
+        					 				<div class="panel-group" id="accordion4">
+        					 					<div class="panel panel-default">
+        					 						<div class="panel-heading">
+        					 							<h4 class="panel-title sub-title">
+        					 								<a data-toggle="collapse" data-parent="#accordion4" href="#"> Wireless Phones </a> 
+        					 							</h4>
+        					 						</div>
+        					 					</div>	
+        					 					<div class="panel panel-default">
+        					 						<div class="panel-heading">
+        					 							<h4 class="panel-title sub-title">
+        					 								<a data-toggle="collapse" data-parent="#accordion4" href="#"> Cable Phones </a> 
+        					 							</h4>
+        					 						</div>
+        					 					</div>
+        					 						<div class="panel panel-default">
+        					 						<div class="panel-heading">
+        					 							<h4 class="panel-title sub-title">
+        					 								<a data-toggle="collapse" data-parent="#accordion4" href="#"> Fax </a> 
+        					 							</h4>
+        					 						</div>
+        					 					</div>	
+        					 					<div class="panel panel-default">
+        					 						<div class="panel-heading">
+        					 							<h4 class="panel-title sub-title">
+        					 								<a data-toggle="collapse" data-parent="#accordion4" href="#"> Radio Phones </a> 
+        					 							</h4>
+        					 						</div>
+        					 					</div>
+        					 				</div>
+        					 			</div>
+        					 		</div>
+        					 	</div>
+        					 </div>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="panel panel-default">
+        				<div class="panel-heading">
+        					<h4 class="panel-title">
+        						<a data-toggle="collapse" data-parent="#accordion" href="#coll2">Tv & Audio</a>
+        					</h4>
+        				</div>
+        			 </div>	
+        			 <div class="panel panel-default">
+        				<div class="panel-heading">
+        					<h4 class="panel-title">
+        						<a data-toggle="collapse" data-parent="#accordion" href="#coll2">Accordion Two</a>
+        					</h4>
+        				</div>
+        			 </div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        </div>
+        
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

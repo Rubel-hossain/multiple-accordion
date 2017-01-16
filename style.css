@@ -1,0 +1,43 @@
+*{
+	padding:0;
+	margin:0;
+}
+.panel-body {
+	padding:0;
+}
+.panel-group .panel + .panel{
+	margin-top:0;
+}
+.panel-group {
+	margin-bottom:0;
+}
+.panel-wrapper {
+	margin:50px;
+}
+.border-zero {
+	border:0;
+}
+.panel-title {
+	display:inline;
+}
+.panel-title a:focus, 
+.panel-title a:active, 
+.panel-title a:hover,
+.panel-title a:visited {
+	border:0;
+	outline:0;
+	text-decoration: none;
+}
+.panel-title.plus::after {
+ content:"+";
+ float:right;
+}
+.panel-title.active::after {
+ content:"-";
+ float:right;
+}
+.sub-title::before {
+	content:"\2022";
+	padding:0 10px;
+	font-size:16px;
+}
